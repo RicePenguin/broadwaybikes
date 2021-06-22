@@ -1,0 +1,305 @@
+  /* colour palette */
+.footerbackground {
+  background: #315c7b;
+}
+
+.gold {
+  color: #E4CE2A;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  width: 100%;
+  background-color: #f5f5f5
+}
+
+/* Title */
+
+header {
+  background: #315c7b;
+  margin: 0;
+  width: 100%
+}
+
+h1 {
+  font-size: 3rem;
+  text-align: center;
+  font-weight: 500;
+  color: #E4CE2A;
+  font-family: 'Oswald', sans-serif;
+  width: 100%;
+  margin:0;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  font-size: 7px;
+  padding: 1.5%;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+}
+
+
+/* Intro-section */
+
+.oswald {
+  font-family: 'Oswald', sans-serif;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 1rem;
+  background: #6F8EA8;
+  color: white;
+  padding: 3% 0;
+  font-family: 'Oswald', sans-serif;
+
+
+  font-weight: 700;
+}
+
+
+@media (any-hover: hover) {
+  h3:hover {
+    background: #315c7b;
+    cursor: pointer;
+  }
+}
+
+.service_item {
+  margin: 0 30px;
+}
+
+.p1 {
+  font-weight: bold;
+  padding: 2%;
+  margin: 0;
+}
+
+/* About us */
+
+p {
+  font-family: "georgia", sans-serif;
+  line-height: 1.5;
+  padding: 0 7%;
+  font-size: 1rem;
+}
+
+/* Timing */
+
+#timing {
+  margin-bottom: 0;
+}
+
+.openingtimes {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: -10px;
+  background-color: lightblue;
+  margin: 0;
+  padding: 3% 0;
+}
+
+.openingtimes>* {
+  margin: 10px;
+}
+
+li {
+  list-style: none;
+  font-family: "Oswald", sans-serif;
+  font-weight: 400;
+  text-align: center;
+}
+
+.openingtimes li {
+  width: 70px;
+  height: 100px;
+}
+
+.dotw {
+  font-weight: 500;
+  color: white;
+  position: relative;
+  top: -10%;
+}
+
+.time {
+  position: relative;
+  bottom: -20%;
+}
+
+.time1 {
+  position: relative;
+  bottom:4%;
+}
+
+/* transport */
+
+#transport {
+  margin-top: 0;
+}
+
+.transport_info {
+  	display: block;
+    margin: 1em 0;
+    padding: 0 3%;
+}
+
+.indent {
+  padding-left: 40px
+}
+
+ .mode {
+   font-weight: bold;
+ }
+
+footer {
+  background: #315c7b;
+  margin: 0;
+  width: 100%;
+  line-height: 1.5;
+  color: white;
+  padding: 4% 0;
+}
+
+.footer_brandname {
+  font-weight: 400;
+  font-size: 25px;
+  margin: 10 0 20;
+}
+
+@media screen and (max-width: 420px) {
+  .navbar {
+    font-size: 9px;
+  }
+  h3 {
+    font-size: 0.8rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+  h2 {
+    font-size: 1.3rem;
+  }
+  h1 {
+    font-size: 1.6rem;
+    padding: 2% 0;
+  }
+  #about {
+    font-size: 1rem;
+  }
+  #timing {
+    font-size: 1rem;
+  }
+  #transport {
+    font-size: 1rem;
+  }
+}
+
+
+
+@media screen and (min-width: 420px) and (max-width: 800px){
+  h3 {
+    font-size: 1.3rem;
+  }
+
+  h3.navbar {
+    font-size: 12px;
+  }
+  #services {
+    padding: 1%;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  h3 {
+    font-size: 2rem;
+  }
+  h3.navbar {
+    font-size: 2rem;
+  }
+  h1 {
+    font-size: 6rem;
+  }
+}
+
+@media screen and (min-width: 1400px) {
+  h1 {
+    padding: 2% 0;
+  }
+  h2 {
+    font-size: 3rem;
+  }
+  h3 {
+    padding: 1% 0;
+  }
+
+  .navbar {
+    font-size: 25px;
+    display: block;
+  }
+  a {
+    margin: 0 70px;
+  }
+
+  body, footer, p {
+    font-size: 1.4rem;
+  }
+
+  .openingtimes {
+    padding: 3% 10% 5%;
+  }
+
+  .time {
+    font-weight: 500;
+  }
+
+  .time1 {
+    font-weight: 500;
+  }
+
+  .transport_info li {
+    padding: 20px 0 20px 15%;;
+    text-align: left;
+  }
+  .mode {
+    font-size: 1.8rem;
+  }
+
+  footer {
+    padding: 4% 0 2%;
+  }
+  .footer_brandname {
+    font-size: 1.8rem;
+  }
+
+  .front {
+    display: flex;
+    padding: 0 12%;
+  }
+  .p1 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding: 2%;
+    margin: 0;
+  }
+  .p2 {
+    margin: 0
+  }
+}
